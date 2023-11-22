@@ -1,0 +1,52 @@
+.main-sidebar{
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F0F1F3 ;
+}
+.cname{
+    background-image: url('https://png.pngtree.com/png-clipart/20190604/original/pngtree-creative-company-logo-png-image_1197025.jpg');
+    background-position:center ;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logos{
+    opacity: 0.5;
+    cursor:grab ;
+}
+.profile{
+    background-image: url('https://www.pngkit.com/png/full/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png');
+    background-size: cover;
+    margin-bottom:28px;
+    width: 45px;
+    height: 45px;
+}
+.logos:hover{
+    opacity: 12;
+}
+.notification {
+    position: relative;
+  }
+
+  .notification-dot {
+    position: absolute;
+    top: 2px;
+    right: 21px;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+.stats{
+    opacity: 1;
+}

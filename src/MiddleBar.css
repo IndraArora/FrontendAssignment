@@ -1,0 +1,20 @@
+.middlebar-maincontent{
+    width: 92% ;
+    height: 60px;
+    /* border: 2px solid #008000; */
+    align-content: center;
+    margin-left: 70px;
+    margin-top: 10px;
+    background-color: #EEEDF3;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middlebar-maincontent > div:not(.parent-div) :hover{
+    background-color: white;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius:'26px'
+}

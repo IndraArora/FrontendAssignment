@@ -1,0 +1,79 @@
+.main-bottombar{
+    width: 92%;
+    /* border: 2px solid red; */
+    margin-left: 70px;
+    height: 83vh;
+}
+.bottombar-first{
+    /* border: 2px solid black; */
+    height: 83vh;
+    gap:'auto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile1{
+    width: 85%;
+    height: 30%;
+    /* border: 2px solid black; */
+    background-image: url('https://mulberrylearning.com/wp-content/uploads/2016/02/bigstock-Asian-Child-Studying-111200972.jpg');
+    background-size: cover;
+    border-radius: 41px;
+    display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.profile1 span {
+    margin-top: auto; /* Push the span to the bottom */
+    margin-left:28px ;
+    background-color: #F0F1F5;
+    /* display: inline; */
+    width: 72px;
+    padding-left: 10px;
+    margin-left: 6px;
+    border-radius: 0px 17px 19px 22px;
+    font-weight: 600;
+
+}
+.profile2 span {
+    margin-top: auto; /* Push the span to the bottom */
+    margin-left:28px ;
+    background-color: #F0F1F5;
+    /* display: inline; */
+    width: 90px;
+    padding-left: 10px;
+    margin-left: 4px;
+    border-radius: 0px 17px 19px 22px;
+    font-weight: 600;
+
+}
+.profile2{
+    width: 85%;
+    height: 30%;
+    /* border: 2px solid black; */
+    background-image: url('https://leaveyour9-5.com/wp-content/uploads/2021/03/Online-Transcription-Jobs-for-Beginners2-768x768.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    width: 85%;
+    height: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 60px;
+}
+.blogo{
+    display: flex;
+    background-color: #EEEDF3;
+    border-radius: 10px;
+    justify-content: center;
+    height: 28px;
+    width: 36px;
+    align-items: center;
+}
